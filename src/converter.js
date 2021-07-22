@@ -16,7 +16,8 @@ import Svg, {
   Text,
   Use,
   Defs,
-  Stop
+  Stop,
+  Image
 } from 'react-native-svg'
 
 const mapping = {
@@ -35,7 +36,8 @@ const mapping = {
   'radialGradient': RadialGradient,
   'use': Use,
   'defs': Defs,
-  'stop': Stop
+  'stop': Stop,
+  'image': Image
 }
 
 function extractViewbox (markup) {
