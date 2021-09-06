@@ -4,6 +4,7 @@
   "description": "parses SVG/XML format and converts to react-native-svg elements",
   "main": "lib/parser.js",
   "scripts": {
+    "prepare": "npm run build",
     "lint": "standard",
     "lint-fix": "standard --fix",
     "test": "jest --verbose --coverage",
